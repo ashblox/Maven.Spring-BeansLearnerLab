@@ -2,6 +2,7 @@ package com.zipcoder.io.SpringLearnerLab;
 
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 
 public abstract class People<T extends Person> implements Iterable<T> {
 
@@ -53,4 +54,16 @@ public abstract class People<T extends Person> implements Iterable<T> {
         return personList.iterator();
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof People)) return false;
+        People<?> people = (People<?>) o;
+        return Objects.equals(personList, people.personList);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(personList);
+    }
 }
