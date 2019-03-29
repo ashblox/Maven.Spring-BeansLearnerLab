@@ -1,8 +1,6 @@
 package com.zipcoder.io.SpringLearnerLab;
 
 import java.util.function.Consumer;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 public class Instructor extends Person implements Teacher{
