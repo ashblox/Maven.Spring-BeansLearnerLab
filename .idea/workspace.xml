@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c223619c-b193-496a-878d-dc9cfd04e094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Classroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/ClassroomTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/InstructorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/StudentConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zipcoder/io/SpringLearnerLab/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zipcoder/io/SpringLearnerLab/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Classroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Classroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Instructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Instructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Learner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Learner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/ClassroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/ClassroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/InstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/InstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/InstructorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/InstructorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/StudentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/StudentsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,40 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/People.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Classroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Classroom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
                 <element signature="e#361#362#0" expanded="true" />
                 <element signature="e#386#387#0" expanded="true" />
@@ -68,43 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/ClassroomTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Instructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Instructors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Instructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,26 +65,81 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/InstructorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Students.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/InstructorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/InstructorsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/ClassroomTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/StudentsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/PersonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/StudentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/StudentConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/InstructorsConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +151,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -181,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Students.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/People.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/ClassroomTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/StudentConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/InstructorsConfig.java" />
       </list>
     </option>
   </component>
@@ -233,6 +242,24 @@
               <item name="SpringLearnerLab" type="b2602c69:ProjectViewProjectNode" />
               <item name="Maven.Spring-BeansLearnerLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringLearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringLearnerLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.Spring-BeansLearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringLearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="essentials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringLearnerLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven.Spring-BeansLearnerLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -261,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553890119647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553896293926" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -295,12 +322,12 @@
       <module name="SpringLearnerLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.*" />
+          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.essentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.ClassroomTest" />
+      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests.ClassroomTest" />
       <option name="METHOD_NAME" value="getInstructors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -311,12 +338,12 @@
       <module name="SpringLearnerLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.*" />
+          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.essentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.ClassroomTest" />
+      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests.ClassroomTest" />
       <option name="METHOD_NAME" value="getStudents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -327,12 +354,12 @@
       <module name="SpringLearnerLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.*" />
+          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.essentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.ClassroomTest" />
+      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests.ClassroomTest" />
       <option name="METHOD_NAME" value="hostLecture" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -343,12 +370,12 @@
       <module name="SpringLearnerLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.*" />
+          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.essentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.ClassroomTest" />
+      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests.ClassroomTest" />
       <option name="METHOD_NAME" value="setInstructors" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -359,12 +386,12 @@
       <module name="SpringLearnerLab" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.*" />
+          <option name="PATTERN" value="com.zipcoder.io.SpringLearnerLab.essentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.ClassroomTest" />
+      <option name="PACKAGE_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcoder.io.SpringLearnerLab.essentialsTests.ClassroomTest" />
       <option name="METHOD_NAME" value="setStudents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -399,20 +426,11 @@
       <option name="presentableId" value="Default" />
       <updated>1553869326065</updated>
       <workItem from="1553869330622" duration="356000" />
-      <workItem from="1553878088157" duration="9595000" />
+      <workItem from="1553878088157" duration="11653000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentsTest - 2019.03.29 at 15h 46m 26s.xml">
-      <configuration name="StudentsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InstructorsTest - 2019.03.29 at 15h 48m 34s.xml">
-      <configuration name="InstructorsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InstructorsTest - 2019.03.29 at 15h 48m 55s.xml">
-      <configuration name="InstructorsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InstructorsTest - 2019.03.29 at 15h 49m 36s.xml">
       <configuration name="InstructorsTest" configurationId="JUnit" />
     </history-entry>
@@ -434,15 +452,24 @@
     <history-entry file="ClassroomTest_setStudents - 2019.03.29 at 16h 06m 06s.xml">
       <configuration name="ClassroomTest.setStudents" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClassroomTest_getInstructors - 2019.03.29 at 16h 07m 33s.xml">
+      <configuration name="ClassroomTest.getInstructors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassroomTest_setInstructors - 2019.03.29 at 16h 07m 37s.xml">
+      <configuration name="ClassroomTest.setInstructors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassroomTest_setInstructors - 2019.03.29 at 16h 08m 43s.xml">
+      <configuration name="ClassroomTest.setInstructors" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9951000" />
+    <option name="totallyTimeSpent" value="12009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-284" y="-1040" width="1803" height="1006" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17830779" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17830779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -454,7 +481,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32932165" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,49 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Learner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -543,47 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Instructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/InstructorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/InstructorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/StudentsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" lean-forward="true" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -601,10 +544,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/People.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Instructors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Learner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
@@ -629,10 +605,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Students.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="-7">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
@@ -641,22 +624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Instructors.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Classroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/Classroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
             <element signature="e#361#362#0" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
@@ -672,10 +643,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/ClassroomTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/essentials/Instructor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="106" column="45" selection-start-line="106" selection-start-column="45" selection-end-line="106" selection-end-column="45" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/InstructorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/InstructorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/ClassroomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/StudentsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcoder/io/SpringLearnerLab/essentialsTests/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/StudentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcoder/io/SpringLearnerLab/config/InstructorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

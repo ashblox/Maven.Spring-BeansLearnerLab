@@ -1,15 +1,13 @@
-package com.zipcoder.io.SpringLearnerLab;
+package com.zipcoder.io.SpringLearnerLab.essentialsTests;
 
+import com.zipcoder.io.SpringLearnerLab.essentials.Student;
+import com.zipcoder.io.SpringLearnerLab.essentials.Students;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import javax.validation.constraints.Null;
-
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class StudentsTest {
 

@@ -1,4 +1,4 @@
-package com.zipcoder.io.SpringLearnerLab;
+package com.zipcoder.io.SpringLearnerLab.essentials;
 
 import java.util.ArrayList;
 import java.util.Arrays;

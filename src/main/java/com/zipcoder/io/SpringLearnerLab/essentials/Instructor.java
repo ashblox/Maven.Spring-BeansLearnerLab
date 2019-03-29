@@ -1,4 +1,4 @@
-package com.zipcoder.io.SpringLearnerLab;
+package com.zipcoder.io.SpringLearnerLab.essentials;
 
 import java.util.function.Consumer;
 import java.util.stream.StreamSupport;

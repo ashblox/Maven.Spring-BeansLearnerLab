@@ -1,9 +1,8 @@
-package com.zipcoder.io.SpringLearnerLab;
+package com.zipcoder.io.SpringLearnerLab.essentialsTests;
 
+import com.zipcoder.io.SpringLearnerLab.essentials.Student;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class StudentTest {
 

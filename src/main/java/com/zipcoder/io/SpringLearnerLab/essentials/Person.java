@@ -1,4 +1,4 @@
-package com.zipcoder.io.SpringLearnerLab;
+package com.zipcoder.io.SpringLearnerLab.essentials;
 
 public class Person {
 
