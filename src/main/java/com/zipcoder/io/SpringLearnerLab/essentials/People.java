@@ -66,4 +66,11 @@ public abstract class People<T extends Person> implements Iterable<T> {
     public int hashCode() {
         return Objects.hash(personList);
     }
+
+    @Override
+    public String toString() {
+        return "People{" +
+                "personList=" + personList +
+                '}';
+    }
 }

@@ -20,4 +20,12 @@ public class Instructor extends Person implements Teacher{
         learners.forEach((Consumer<Learner>) learner -> learner.learn(numberOfHours/count));
     }
 
+    @Override
+    public String toString() {
+        return "Instructor{" +
+                "id=" + getID() +
+                ", name='" + getName() + '\'' +
+                '}';
+    }
+
 }

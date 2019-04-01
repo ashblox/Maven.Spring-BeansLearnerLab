@@ -19,4 +19,11 @@ public class Student extends Person implements Learner{
         return totalStudyTime;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + getID() +
+                ", name='" + getName() + '\'' +
+                '}';
+    }
 }
