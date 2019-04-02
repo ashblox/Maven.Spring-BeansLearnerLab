@@ -30,4 +30,11 @@ public class Classroom {
         this.instructors = instructors;
     }
 
+    @Override
+    public String toString() {
+        return "Classroom{" +
+                "students=" + students +
+                ", instructors=" + instructors +
+                '}';
+    }
 }

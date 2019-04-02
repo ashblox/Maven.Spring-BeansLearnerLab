@@ -18,7 +18,7 @@ public class InstructorsConfig {
         return new Instructors(instArr);
     }
 
-    @Bean(name = "TC UK instructors")
+    @Bean
     public Instructors tcUkInstructors() {
         Instructor[] instArr = new Instructor[5];
         for (int i = 0; i < instArr.length; i++) {
